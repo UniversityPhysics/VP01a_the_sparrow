@@ -1,4 +1,4 @@
-# The sparrow
+# The sparrow and the hawk, part 1
 Introduction to VPython. The sparrow, fleeing a hawk, just wants to get home. It is traveling at it's maximum speed. 
 
 ## Our development environment: Glowscript.org
@@ -37,6 +37,8 @@ Let's represent the sparrow as a sphere. For help on objects such as a sphere, c
 ```
 sparrow = sphere( radius=0.1, pos=vec(x,y,z))
 ```
+
+## Making motion diagrams by leaving a trail
 
 VPython has an easy way to let the sphere make a "trail", which will allow us to make a motion diagram. Just paste in this line o
 
