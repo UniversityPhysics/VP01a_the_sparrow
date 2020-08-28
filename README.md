@@ -67,14 +67,14 @@ delta_t=0.1
 t=0
 sparrow.velocity=vec(3.0,0,0)
 
-while t<3:
+while t<2:
   rate(1.0/delta_t) #slow the execution of the loop down so it runs every delta_t seconds
   sparrow.pos=sparrow.pos + sparrow.velocity * delta_t
   t=t+delta_t
   print(t,sparrow.pos)
 ```
 
-Experiment with the loop to stop the animation when the sparrow is closest to the birdhouse.
+Get the sparrow to the birdhouse: experiment with the loop to stop the animation when the sparrow is closest to the birdhouse.
 
 Checkpoint 4
 
@@ -85,13 +85,13 @@ Create a hawk like this
 hawk = sphere(radius = 0.2, color = color.yellow, make_trail=True, trail_type="points",
               interval=1, retain=50)
 hawk.pos = vec(-5,1.5,0)
-hawk.velocity = vec(5,0,0)
+hawk.velocity = vec(4,0,0)
 ```
 Does each line make sense to you? If not, raise your hand.
 
 Modify your animation loop to update `hawk.position` using `hawk.velocity`, similar to the way you updated `sparrow.pos`. This is a one-liner.
 
-Create a hawk
+Experiment with the velocity of the hawk so that it runs into the birdhouse just when the sparrow has safely made it home.
 
 
 
