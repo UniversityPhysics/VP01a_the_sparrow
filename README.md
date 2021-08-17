@@ -7,6 +7,18 @@ You don't need to install anything! Just use http://GlowScript.com. Southern stu
 
 We will use the visual package for Python, referred to as VPython. There is a lot of helpful reference material and tutorial videos available at http://VPython.org. 
 
+## "All I ever did was copy and paste code, I don't know how to do this next assignment"
+Each of these computational assignments is a stepping stone, building toward more challenging projects later in the semester. Be advised that students are sometimes surprised when they are expected to use what they learn on one assignment in the next assignment. 
+
+Advice:
+*Think as you type, don't copy and paste.
+*If something doesn't make sense in this class, ask for help right away.
+
+
+
+Yes, understanding how to code physics will be on the test, so that won't be a surprise.
+
+
 ## Draw 3D shapes in VPython
 
 Let's build a birdhouse! VPython makes it easy to make a box shape: if you click help and select box, this is the syntax:
