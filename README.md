@@ -31,7 +31,7 @@ print(t)
 ```
 Predict the output:____________
 
-Python has a funny way of indicating what parts of the code are ``inside the loop''. Instead of using parentheses or brackets, it uses tabs. Examine the code below.
+Python has a funny way of indicating what parts of the code are "inside the loop". Instead of using parentheses or brackets, it uses tabs. Examine the code below.
 ```
 t_max = 0.1
 delta_t = 0.01
@@ -48,7 +48,7 @@ Now fix the ouptut of this code to get all times from 0 to the maximum time.
 
 Predict the first and last times ouputed:________________
 
-Slow this output down by adding ``rate(1.0/delta_t)'' somewhere in your loop. This just pauses the loop for a time ``delta_t''.
+Slow this output down by adding ``rate(1.0/delta_t)`` somewhere in your loop. This just pauses the loop for a time ``delta_t``, so the animation goes at a speed that makes sense.
 
 ## Draw 3D shapes in VPython
 
