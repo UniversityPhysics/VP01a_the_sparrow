@@ -8,7 +8,7 @@ You don't need to install anything! Just use http://GlowScript.com. Southern stu
 We will use the visual package for Python, referred to as VPython. There is a lot of helpful reference material and tutorial videos available at http://VPython.org. 
 
 ## "All I ever did was copy and paste code, I don't know how to do this next assignment"
-Each of these computational assignments is a stepping stone, building toward more challenging projects later in the semester. Be advised that students are sometimes surprised when they are expected to use what they learn on one assignment in the next assignment. 
+Each of these computational assignments is a stepping stone, building toward more challenging projects later in the semester. Be advised that what you learn will be assessed on tests, and that students are sometimes surprised when they are expected to use what they learn on one assignment in the next assignment. 
 
 Advice:
 *Think as you type, don't copy and paste.
@@ -18,6 +18,37 @@ Advice:
 
 Yes, understanding how to code physics will be on the test, so that won't be a surprise.
 
+## Advancing time
+
+Examine the code below.
+```
+delta_t = 0.01
+t = 0
+
+t=t+delta_t
+print(t)
+
+```
+Predict the output:____________
+
+Python has a funny way of indicating what parts of the code are ``inside the loop''. Instead of using parentheses or brackets, it uses tabs. Examine the code below.
+```
+t_max = 0.1
+delta_t = 0.01
+t = 0
+
+while t<t_max:
+    t=t+delta_t
+print(t)
+
+```
+Predict the output:____________
+
+Now fix the ouptut of this code to get all times from 0 to the maximum time. 
+
+Predict the first and last times ouputed:________________
+
+Slow this output down by adding ``rate(1.0/delta_t)'' somewhere in your loop. This just pauses the loop for a time ``delta_t''.
 
 ## Draw 3D shapes in VPython
 
